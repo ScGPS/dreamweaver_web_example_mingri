@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!--指定页面编码格式-->
+    <meta charset="utf-8">
+    <!--指定页头信息-->
+    <title>定制你的视频播放器</title>
+    <link href="mr-style.css" rel="stylesheet" type="text/css" />
+    <script src="mr.js"></script>
+  </head>
+
+  <body onload="init()" style="background-image: url(bg.jpg)">
+    <div>
+      <video id="video1"
+        src="F:\mount_point_4\movies\终结者_Terminator.Quadrilogy.1984-2015.BluRay.1080p.3Audio.DTS-HD.MA.5.1.x264-beAst\终结者_7_终结者：黑暗命运.BD.1080p.国英双语双字.mkv"
+        class="mr-video"
+        width="500" height="300" controls="controls"></video>
+    </div>
+    <div>
+      <button onclick="play()">播放</button>
+      <button onclick="pause()">暂停</button>
+      <button onclick="load()">重载</button>
+    </div>
+  </body>
+
+</html>

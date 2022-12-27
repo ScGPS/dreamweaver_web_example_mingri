@@ -1,0 +1,8 @@
+@charset "utf-8";
+.mr-video {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2px solid red;
+  text-align: center;
+}

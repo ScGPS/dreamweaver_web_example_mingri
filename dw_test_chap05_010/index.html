@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Signup</title>
+    <!--Download https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css -->
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div class="signup">
+      <h1 class="signup-heading">注册</h1>
+      <a href="#" class="signup-google">
+        <i class="fab fa-google signup-google-icon"></i>
+        <span class="signup-google-text">第三方登录</span>
+      </a>
+      <div class="signup-or">
+        <span class="signup-or-text">或</span>
+      </div>
+
+      <form action="javascript:void(0);" class=signup-form" autocomplete="off">
+        <div class="form-group">
+          <label for="name" class="form-label">名称</label>
+          <input type="text" class="form-input" id="name" placeholder="输入名称">
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">邮箱</label>
+          <input type="email" class="form-input" id="email"
+            placeholder="请输入有效的邮箱" />
+        </div>
+        <button type="submit" class="form-submit">注册</button>
+      </form>
+      <p class="signup-already">已经注册?<a href="#" class="signup-already-link">登录</a></p>
+    </div>
+  </body>
+</html>
